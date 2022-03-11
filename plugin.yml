@@ -1,0 +1,21 @@
+{
+    "name": "WatchMan",
+    "author": "hachkingtohach1",
+    "api": "4.0.0", 
+    "version": "1.0.0",
+    "main": "hachkingtohach1\\WatchMan\\WatchMan",
+    "github": "https://github.com/hachkingtohach1/",
+    "description": "Plugin WatchMan for pocketmine_pmmp",   
+    "permissions":{
+        "watchman.command":{
+            "description": "Permission to use the WatchMan command",
+            "default": true
+        }    
+    },
+    "commands":{ 
+        "wm":{
+            "description": "report player hacking",
+            "permission": "watchman.command"
+        }
+    }
+}
